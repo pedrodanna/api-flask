@@ -1,11 +1,9 @@
 [
     {
-        "id": 0,
         "title": "API",
         "def": "The term API, short for Application Programming Interface, refers to a part of a computer program designed to be used or manipulated by another program, as opposed to an interface designed to be used or manipulated by a human."
     },
     {
-        "id": 1,
         "title": "Flask",
         "def": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions."
     }
