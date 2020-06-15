@@ -22,6 +22,28 @@ def all():
     #Returning data in JSON format
     return jsonify(data)
 
+#App specific definiton page
+@app.route('/api/def', methods=['GET'])
+#Specific definiton page fucntion
+def api_title():
+    # If title is provided, assign it to a variable
+    if 'title' in request.args:
+        title = request.args['title']
+    # If no ID is provided, display an error in the browser
+    else:
+        return "Error: No API found with currency URL"
+
+    #Empty list for future use
+    api_list = []
+
+    #Loop through the data and match results that fit the requested ID
+    for defs in data:
+        if defs['title'] == title:
+            print("Foi")
+            api_list.append(defs)
+
+    return jsonify(api_list)
+
 #Executing the app
 if __name__ == "__main__":
     #Running the app
