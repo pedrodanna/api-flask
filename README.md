@@ -30,14 +30,14 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-👤 **Pedro Danna**
+👤  **Pedro Danna**
 
 - Github: [@pedrodanna](https://github.com/pedrodanna)
 - Twitter: [@_pedrodanna](https://twitter.com/_pedrodanna)
 - Linkedin: [Pedro Danna](https://www.linkedin.com/in/pedro-danna-730690189/)
 
 
-## 🤝 Contributing
+## 🤝  Contributing
 
 Contributions, issues and feature requests are welcome!
 
