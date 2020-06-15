@@ -1,5 +1,11 @@
 from flask import Flask, render_template, request, jsonify
 
+import json
+
+#Importing JSON data from a file
+with open('data.json') as json_file:
+    data = json.load(json_file)
+
 #Referencing this file
 app = Flask(__name__)
 
