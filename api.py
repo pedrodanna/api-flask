@@ -11,9 +11,16 @@ app = Flask(__name__)
 
 #App home index
 @app.route('/', methods=['GET'])
-#Index page fucntion
+#Index page function
 def index():
     return render_template('index.html')
+
+#App all API's page
+@app.route('/api/all', methods=['GET'])
+#All API's page function
+def all():
+    #Returning data in JSON format
+    return jsonify(data)
 
 #Executing the app
 if __name__ == "__main__":
